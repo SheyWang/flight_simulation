@@ -1,0 +1,56 @@
+﻿生成启动时间为 2019/3/4 22:00:13。
+     1>项目“F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\DigitalEarth\DigitalEarth.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DigitalEarth.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010_path\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DigitalEarth.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs2010_path\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DigitalEarth.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DigitalEarth.cpp DigitalEarthDoc.cpp DigitalEarthView.cpp LabelControlEventHandler.cpp MainFrm.cpp OSGObject.cpp
+         OSGObject.cpp
+     1>f:\002.openscenegraph\019.earth\013.第十三讲-海量地名效率问题解决\digitalearth\digitalearth\osgobject.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\002.openscenegraph\019.earth\013.第十三讲-海量地名效率问题解决\digitalearth\digitalearth\osgobject.cpp(381): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\002.openscenegraph\019.earth\013.第十三讲-海量地名效率问题解决\digitalearth\digitalearth\osgobject.cpp(385): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\002.openscenegraph\019.earth\013.第十三讲-海量地名效率问题解决\digitalearth\digitalearth\osgobject.cpp(727): warning C4018: “<”: 有符号/无符号不匹配
+         MainFrm.cpp
+         LabelControlEventHandler.cpp
+         DigitalEarthView.cpp
+         DigitalEarthDoc.cpp
+         DigitalEarth.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\DigitalEarth.res" DigitalEarth.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DigitalEarth.exe.embed.manifest.res" Debug\DigitalEarth_manifest.rc 
+       Link:
+         d:\vs2010_path\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.exe" /INCREMENTAL /NOLOGO OpenThreadsd.lib osgd.lib osgDBd.lib osgUtild.lib osgGAd.lib osgViewerd.lib osgTextd.lib osgEarthd.lib osgEarthUtild.lib osgEarthAnnotationd.lib osgEarthSymbologyd.lib osgParticled.lib /MANIFEST /ManifestFile:"Debug\DigitalEarth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.lib" /MACHINE:X86 Debug\DigitalEarth.res
+         Debug\DigitalEarth.exe.embed.manifest.res
+         Debug\DigitalEarth.obj
+         Debug\DigitalEarthDoc.obj
+         Debug\DigitalEarthView.obj
+         Debug\LabelControlEventHandler.obj
+         Debug\MainFrm.obj
+         Debug\OSGObject.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\DigitalEarth.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DigitalEarth.exe.embed.manifest" /manifest Debug\DigitalEarth.exe.intermediate.manifest d:\vs2010_path\VC\Include\Manifest\dpiaware.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DigitalEarth.exe.embed.manifest.res" Debug\DigitalEarth_manifest.rc 
+       LinkEmbedManifest:
+         d:\vs2010_path\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.exe" /INCREMENTAL /NOLOGO OpenThreadsd.lib osgd.lib osgDBd.lib osgUtild.lib osgGAd.lib osgViewerd.lib osgTextd.lib osgEarthd.lib osgEarthUtild.lib osgEarthAnnotationd.lib osgEarthSymbologyd.lib osgParticled.lib /MANIFEST /ManifestFile:"Debug\DigitalEarth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.lib" /MACHINE:X86 Debug\DigitalEarth.res
+         Debug\DigitalEarth.exe.embed.manifest.res
+         Debug\DigitalEarth.obj
+         Debug\DigitalEarthDoc.obj
+         Debug\DigitalEarthView.obj
+         Debug\LabelControlEventHandler.obj
+         Debug\MainFrm.obj
+         Debug\OSGObject.obj
+         Debug\stdafx.obj
+         DigitalEarth.vcxproj -> F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\Debug\DigitalEarth.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DigitalEarth.unsuccessfulbuild”。
+         正在对“Debug\DigitalEarth.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\002.OpenSceneGraph\019.Earth\013.第十三讲-海量地名效率问题解决\DigitalEarth\DigitalEarth\DigitalEarth.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:54.87
